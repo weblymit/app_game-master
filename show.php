@@ -7,5 +7,3 @@ require_once("models/database.php");
 $game = getGame();
 $title = $game['name']; // title of current page
 require("view/showPage.php");
-
-

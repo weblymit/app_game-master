@@ -2,8 +2,7 @@
 /**
  * This file show the home page
  */
-// session_start()
-
+session_start();
 /**
  * get all games from models and stock it in array $games
  */
