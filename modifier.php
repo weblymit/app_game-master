@@ -8,6 +8,7 @@ include("helpers/functions.php");
 // include PDO pour la connexion BDD
 require_once("helpers/pdo.php");
 // debug_array($_GET)
+// delete
 
 //1-verifie id existant et que c'est un int
 if (!empty($_GET['id']) && is_numeric($_GET['id'])) {
