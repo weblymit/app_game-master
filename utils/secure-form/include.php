@@ -8,3 +8,4 @@ require_once("input-description.php");
 require_once("input-genre.php");
 require_once("input-plateform.php");
 require_once("input-pegi.php");
+
