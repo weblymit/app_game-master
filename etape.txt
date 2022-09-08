@@ -1,0 +1,18 @@
+Etape 1 => refactoring
+////////////////////////
+1- Refactoring MVC => methodes
+
+Etape 2 => Class Model and heritage
+///////////////////////////////////
+1- Créer la class Game et importer tous les methods du modele 
+2- Tester en créant table user 
+    -> Faire model user
+3- Créer le modele parents qui va devenir paent de User-model et Game-model
+
+Etape 3 => Class Controller and heritage
+///////////////////////////////////
+Controller
+1- Creation controller Game
+2- Création Controller User
+3- Controller parent 
+4- Namspace
