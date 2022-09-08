@@ -6,8 +6,9 @@
 /**
  * get all games from models and stock it in array $games
  */
-require_once("models/database.php");
-$games = getAllGames();
+require_once("models/Game.php");
+$model = new Game();
+$games = $model->getAllGames();
 /**
  * Show view
  */

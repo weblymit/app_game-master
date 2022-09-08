@@ -3,7 +3,8 @@
  * This file show single game
  */
 // session_start();
-require_once("models/database.php");
-$game = getGame();
+require_once("models/Game.php");
+$model = new Game();
+$game = $model->getGame();
 $title = $game['name']; // title of current page
 require("view/showPage.php");
