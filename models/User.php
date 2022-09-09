@@ -2,8 +2,7 @@
 
 // require("database.php");
 require("Model.php");
-class Game extends Model
+class User extends Model
 {
-  protected $table = "jeux";
- 
+  protected $table = "users";
 }
