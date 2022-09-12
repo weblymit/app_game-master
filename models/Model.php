@@ -1,7 +1,10 @@
 <?php
 
+namespace Models;
+
 require("database.php");
 
+use PDO;
 abstract class Model
 {
   private $pdo;

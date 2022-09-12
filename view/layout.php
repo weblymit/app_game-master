@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -16,7 +16,7 @@
     <a class="btn btn-ghost normal-case text-xl mx-24" href="index.php">App<span class=" text-blue-500">Game</span></a>
   </div>
   <main class="px-24">
-      <?= $content ?>
+    <?= $content ?>
   </main>
   <footer class="footer footer-center p-4 bg-gray-100 text-base-content">
     <div>
