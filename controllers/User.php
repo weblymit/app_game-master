@@ -2,33 +2,33 @@
 
 namespace Controllers;
 
-require_once("models/Game.php");
+require_once("models/User.php");
 
-class Game
+class User
 {
   private $model;
 
   public function __construct()
   {
-    $this->model = new \Models\Game();
+    $this->model = new \Models\User();
   }
 
   public function index()
   {
-    $games = $this->model->getAll(); 
-    require("view/homePage.php");
+    $users = $this->model->getAll(); 
+    require("view/userPage.php");
   }
 
   public function show()
   {
-    $game = $this->model->get();
-    $title = $game['name']; // title of current page
-    require("view/showPage.php");
+    $user = $this->model->get();
+    $title = $user['name']; // title of current page
+    require("view/showUserPage.php");
   }
 
   public function create()
   {
-    $title = "Add Game"; //title for current page
+    $title = "Add User"; //title for current page
 
     $error = [];
     $errorMessage = "<span class=text-red-500>*Ce champs est obligatoire</span>";

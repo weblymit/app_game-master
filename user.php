@@ -6,10 +6,6 @@ session_start();
 /**
  * get all users from models and stock it in array $users
  */
-require_once("models/User.php");
-$model = new User();
-$users = $model->getAll("pseudo");
-/**
- * Show view
- */
-require("view/userPage.php");
+require_once('controllers/User.php');
+$controller = new \Controllers\User();
+$controller->index();
