@@ -1,5 +1,7 @@
 <?php
-// $title = "Jeux";
+require_once("utils/Form.class.php");
+$form = new Form();
+
 ob_start();
 require("partials/_create.php");
 

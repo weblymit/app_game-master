@@ -1,0 +1,12 @@
+<label for="<?= $name ?>" class="font-semibold text-blue-500"><?= $label ?></label>
+    <input type="text" name="<?= $name ?>" class="input input-bordered w-full max-w-xs block" value="<?php
+                                                                                              if (!empty($_POST["name"])) {
+                                                                                                echo $_POST["name"];
+                                                                                              } ?>" />
+    <!-- <p>
+      <?php
+      if (!empty($error["name"])) {
+        echo $error["name"];
+      }
+      ?>
+    </p> -->
